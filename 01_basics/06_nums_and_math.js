@@ -24,11 +24,12 @@ const hundreds = 1000000
 // console.log(Math.min(4, 3, 6, 8));
 // console.log(Math.max(4, 3, 6, 8));
 
+//Math.random() returns float value between 0 and 1
 console.log(Math.random());
-console.log((Math.random()*10) + 1);
-console.log(Math.floor(Math.random()*10) + 1);
+console.log((Math.random()*10) + 1); // *10 ke wajese 0-9 ke beech return , +1 ke wajese 1 - 10 ke beech
+console.log(Math.floor(Math.random()*10) + 1); // floor ke wajese float int ban jaega
 
 const min = 10
 const max = 20
 
-console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+console.log(Math.floor(Math.random() * (max - min + 1)) + min) // isse min and max ke beech value aaegi
