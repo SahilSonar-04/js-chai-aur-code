@@ -26,6 +26,9 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 // slice, splice
 
+// slice original array ko manipulate nahi karta 
+// splice se jo part hum lete hai woh original array se nikal jaata hai
+// slice and splice dono me last element include nahi hota , eg. 1 hoga but 3 nahi niche waale case me
 console.log("A ", myArr);
 
 const myn1 = myArr.slice(1, 3)
