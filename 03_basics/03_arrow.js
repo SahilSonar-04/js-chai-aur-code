@@ -9,12 +9,15 @@ const user = {
 
 }
 
+
 // user.welcomeMessage()
 // user.username = "sam"
 // user.welcomeMessage()
 
+// Browser ke andar global object is window object , isliye udhar output hoga window , but yaha empty object   {} hai
 // console.log(this);
 
+//This object ke andar use karo , function ke andar nahi
 // function chai(){
 //     let username = "hitesh"
 //     console.log(this.username);
