@@ -3,9 +3,10 @@
 
 // object literals
 
+//Interview Question : Use symbol as key in obj --> use []
 const mySym = Symbol("key1")
 
-
+// Object literals in js are like hash map in cpp
 const JsUser = {
     name: "Hitesh",
     "full name": "Hitesh Choudhary",
