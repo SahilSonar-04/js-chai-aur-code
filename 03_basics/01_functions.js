@@ -38,7 +38,8 @@ function loginUserMessage(username = "sam"){
 // console.log(loginUserMessage("hitesh"))
 // console.log(loginUserMessage("hitesh"))
 
-
+// ... is called rest operator as well as spread , here it is used as rest operator , Eg. function me bass num 1 as input le rahe but call karte time argument
+// me jyaada parameters hai toh tu use all
 function calculateCartPrice(val1, val2, ...num1){
     return num1
 }
