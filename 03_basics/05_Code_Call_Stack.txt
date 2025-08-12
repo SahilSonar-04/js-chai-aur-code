@@ -8,4 +8,6 @@ Function Execution Context
 
 JS is single threaded
 
+call stack me function add hoenge whenever u call it.
+
 Watch video 25 once before interview ...
