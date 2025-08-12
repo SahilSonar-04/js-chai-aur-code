@@ -1,0 +1,11 @@
+--> Javascript Execution Context
+Js runs program in 2 phases .
+First phase is memory creation phase --> Memory allocation hota hai
+Second is Execution Phase
+
+Global execution context me this hota hai  ---> For browser Global EC is Window
+Function Execution Context
+
+JS is single threaded
+
+Watch video 25 once before interview ...
